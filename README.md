@@ -46,13 +46,4 @@ ls -lh train/checkpoints/model.pth # Should be ~152 MB
 ### 5. Quick Start
 python main/main.py
 
-### 6.  Project Structure
-CMR-LVAR-Prediction/
-├── main/
-│   ├── main.py                 # Entry point for inference
-│   └── demo/
-│       └── img/                # Sample CMR data (.nii.gz)
-├── train/
-│   └── checkpoints/            # Pretrained model (.pth)
-├── requirements.txt            # Python dependencies
-└── README.md
+
