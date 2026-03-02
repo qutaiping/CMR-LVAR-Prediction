@@ -20,8 +20,7 @@ pip install -r requirements.txt
 
 ### Try Example
 ```
-cd main
-python main.py
+python main/main.py
 ```
 ![network](images/abstract.tif)
 
