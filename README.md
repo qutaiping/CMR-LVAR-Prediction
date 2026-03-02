@@ -19,9 +19,8 @@ conda activate cmr_lavr
 pip install -r requirements.txt
 
 ### Try Example
-```
 python main/main.py
-```
-![network](images/abstract.tif)
+
+![network](images/abstract.png)
 
 
