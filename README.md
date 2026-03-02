@@ -14,24 +14,24 @@ This project is developed and tested on **Python 3.8 – 3.11**.
 ❌ Not compatible with Python ≤ 3.7 (due to `torch>=2.1.1` dependency).
 
 ### 2. Create Virtual Environment (Recommended)
-# Using conda
+Using conda
 conda create -n cmr_lavr python=3.11.5
 conda activate cmr_lavr
 
-# Or using venv (if you prefer)
+Or using venv (if you prefer)
 python -m venv cmr_lavr_env
 source cmr_lavr_env/bin/activate  # Linux/macOS
-# cmr_lavr_env\Scripts\activate   # Windows
+cmr_lavr_env\Scripts\activate   # Windows
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
 ### 4. Data & Model (Git LFS)
 Install Git LFS (if not already installed):
-# macOS
+macOS
 brew install git-lfs
 
-# Ubuntu/Debian
+Ubuntu/Debian
 sudo apt-get install git-lfs
 
 Clone the repository (LFS files auto-download):
