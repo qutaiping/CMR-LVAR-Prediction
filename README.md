@@ -14,7 +14,6 @@ This project is developed and tested on **Python 3.8 – 3.11**.
 ❌ Not compatible with Python ≤ 3.7 (due to `torch>=2.1.1` dependency).
 
 ### 2. Create Virtual Environment (Recommended)
-```bash
 # Using conda
 conda create -n cmr_lavr python=3.11.5
 conda activate cmr_lavr
